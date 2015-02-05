@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.cloudfoundry</groupId>
+	<groupId>eu.seaclouds</groupId>
 	<artifactId>cf-maven-plugin</artifactId>
 	<packaging>maven-plugin</packaging>
 	<version>1.1.1.BUILD-SNAPSHOT</version>
@@ -23,9 +23,9 @@
 	</properties>
 
 	<scm>
-		<url>http://github.com/cloudfoundry/cf-java-client</url>
-		<connection>scm:git:git@github.com/cloudfoundry/cf-java-client</connection>
-		<developerConnection>scm:git:git@github.com/cloudfoundry/cf-java-client</developerConnection>
+		<url>http://github.com/SeaCloudsEU/cf-java-client</url>
+		<connection>scm:git:git@github.com/SeaCloudsEU/cf-java-client</connection>
+		<developerConnection>scm:git:git@github.com/SeaCloudsEU/cf-java-client</developerConnection>
 	</scm>
 
 	<licenses>
@@ -100,7 +100,7 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>org.cloudfoundry</groupId>
+			<groupId>eu.seaclouds</groupId>
 			<artifactId>cloudfoundry-client-lib</artifactId>
 			<version>1.1.0</version>
 		</dependency>

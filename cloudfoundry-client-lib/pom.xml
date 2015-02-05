@@ -5,10 +5,10 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>eu.seaclouds</groupId>
 	<artifactId>cloudfoundry-client-lib</artifactId>
-	<version>1.1.1.BUILD-SNAPSHOT</version>
+	<version>1.1.0</version>
 	<packaging>jar</packaging>
-	<name>Cloud Foundry Java Client Library</name>
-	<description>A Cloud Foundry client library for Java</description>
+	<name>Cloud Foundry Java Client Library for SEAClouds</name>
+	<description>SEAClouds - A Cloud Foundry client library for Java</description>
 	<url>https://github.com/SeaCloudsEU/cf-java-client</url>
 
 	<licenses>
@@ -96,21 +96,21 @@
 								<configuration>
 									<artifactItems>
 										<artifactItem>
-											<groupId>org.cloudfoundry.test</groupId>
+											<groupId>eu.seaclouds.test</groupId>
 											<artifactId>non-ascii-file-name</artifactId>
 											<version>0.1.0.BUILD-SNAPSHOT</version>
 											<type>war</type>
 											<outputDirectory>${project.build.directory}/generated-test-resources</outputDirectory>
 										</artifactItem>
 										<artifactItem>
-											<groupId>org.cloudfoundry.test</groupId>
+											<groupId>eu.seaclouds.test</groupId>
 											<artifactId>simple-spring-app</artifactId>
 											<version>0.1.0.BUILD-SNAPSHOT</version>
 											<type>war</type>
 											<outputDirectory>${project.build.directory}/generated-test-resources</outputDirectory>
 										</artifactItem>
                                         <artifactItem>
-                                            <groupId>org.cloudfoundry.test</groupId>
+                                            <groupId>eu.seaclouds.test</groupId>
                                             <artifactId>haash-broker</artifactId>
                                             <version>0.1.0.BUILD-SNAPSHOT</version>
                                             <type>jar</type>
@@ -134,14 +134,14 @@
 					<systemPath>${tools.jar}</systemPath>
 				</dependency>
 				<dependency>
-					<groupId>org.cloudfoundry.test</groupId>
+					<groupId>eu.seaclouds.test</groupId>
 					<artifactId>non-ascii-file-name</artifactId>
 					<version>0.1.0.BUILD-SNAPSHOT</version>
 					<type>war</type>
 					<scope>provided</scope>
 				</dependency>
 				<dependency>
-					<groupId>org.cloudfoundry.test</groupId>
+					<groupId>eu.seaclouds.test</groupId>
 					<artifactId>simple-spring-app</artifactId>
 					<version>0.1.0.BUILD-SNAPSHOT</version>
 					<type>war</type>
